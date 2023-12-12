@@ -10,7 +10,7 @@ const TravelList = () => {
           <img className={classes.img} src={travel.image} />
         </div>
         <div className={classes.destinationName}>
-          <h1>{travel.destination}</h1>
+          <h1>{travel.destination} ({travel.days} Days)</h1>
           <p>{travel.description}</p>
           <p>
             <span className={classes.boldText}>Price:</span>
